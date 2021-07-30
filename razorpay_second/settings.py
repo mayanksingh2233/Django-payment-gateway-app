@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '#v&ar4w9sr##jb8#ll=ls9jxom5_b)cznmw2v=2xgh&#y0!*mi'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [https://coffee-tea-pay.herokuapp.com/]
 
 
 # Application definition
